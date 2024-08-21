@@ -1,7 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
 }
 
 /*----------- header ------------*/
@@ -13,7 +18,7 @@
 
 .headernav .firstnav ul div:first-child {
     display: flex;
-    gap: 1rem;
+    gap: 1rem;  
 }
 
 .headernav .firstnav ul div img {
@@ -37,6 +42,10 @@
     color: var(--highlightred);
 }
 
+.highlightred1 {
+    background-color: var(--highlightred) !important;
+    border: 1px solid var(--highlightred) !important;
+}
 
 .headernav .secondnav {
     border-top: 1px solid var(--secondary-color);
@@ -84,19 +93,168 @@ margin-top: 1em;
 }
 
 .main .smallimgsection {
-    border-bottom: 1px solid var(--secondary-color3);
+    border-bottom: 1px dotted var(--secondary-color3);
     padding-top: 1rem;
 }
 
 .main .textsection {
-    border-bottom: 1px solid var(--secondary-color3);
+   
+    padding-top: 1rem;
 }
 .main .aside-right{
     margin-left: auto;
     width: 40rem;
     
 }
+
+.articlessection-4fr {
+    display: grid;
+    gap: 1rem;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.articlessection-4fr img {
+    height: 105px;
+    width: 100%;
+}
+
+.articlessection-4fr h5 {
+font-size: 1.2rem;
+
+   
+}
+
+.did-u-read {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.articlessection {
+    display: flex;
+justify-content: space-between;
+margin-top: 1rem;
+margin-bottom: 2rem;
+ border-bottom: 1px dotted var(--secondary-color3);
+}
+
+.seneste-nyt {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.abonnement-nyt h5+img+p ,.abonnement-nyt p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+} 
+
+
+
+.kommentarer h3 {
+    border-bottom: 1px solid var(--secondary-color3);
+}
+
+
+
+.kommentarer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+
+.abonnement-nyt article{
+  width: 35%;
+}
+
+.seneste-nyt h3 {
+    border-bottom: 1px dotted var(--secondary-color3);
+}
+
+.seneste-nyt article {
+   width: 25%;
+ border-bottom: 2px solid var(--secondary-color8);
+  padding-bottom: 1rem;
+}
+.seneste-nyt article p {
+color: var(--secondary-color3) ;
+}
+
+.seneste-nyt article h5 {
+   font-weight: bold;
+   font-size: 1.2rem;
+    
+}
+
+.seneste-nyt article h5,a {
+text-decoration: none;
+color: var(--primary-color);
+font-weight: bolder !important;
+}
+
+.btn-login {
+    border: none;
+    text-decoration: underline;
+    background-color: #ffffff;
+}
+
+.klik-her {
+    border: 1px solid var(--secondary-color4);
+    background-color: var(--secondary-color4);
+    color: var(--secondary-color5);
+    padding: 0.5rem 3.5rem;
+    cursor: pointer;
+}
+.btnsection .btn-del {
+    border: 1px solid var(--secondary-color4);
+    background-color: var(--secondary-color4);
+    color: var(--secondary-color5);
+}
+.btnsection .btn-tweet {
+    border: 1px solid var(--secondary-color6);
+    background-color: var(--secondary-color6);
+    color: var(--secondary-color5);
+}
+.btnsection .btn-email {
+    border: 1px solid var(--secondary-color7);
+    background-color: var(--secondary-color7);
+    color: var(--secondary-color5);
+}
+
+
+
+.btnsection a {
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+}
+
+.textsection header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
 .main .aside-left{
     margin-right: auto;
     width: 20rem;
+}
+
+/*----------- footer ------------*/
+footer {
+    background-color: var();
+}
+
+footer * {
+    color: var(--primary-color2);
+}
+
+
+footer button {
+    padding: 0.5em 1em;
+}
+
+footer input {
+    padding: 0.5em 1em;
 }

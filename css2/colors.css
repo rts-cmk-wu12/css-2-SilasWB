@@ -1,7 +1,14 @@
 :root {
     --primary-color: #000000;
+    --primary-color2: #a1adb2;
     --secondary-color: #fbfbfb;
-    --secondary-color2: lightgrey;
-    --highlightred: red;
+    --secondary-color2: #ffffff;
+    --highlightred: #dd0000;
     --secondary-color3: #a7a7a7;
-}
+    --secondary-color4: #306199;
+    --secondary-color5:#daedf4;
+    --secondary-color6: #26c4f1;
+    --secondary-color7: #999999;
+    --secondary-color8: #f7f7f7;
+    --secondary-color9: #d7d7d7;
+}   
